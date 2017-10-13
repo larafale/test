@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "start": "next",
+    "export": "next export",
+    "deploy": "now"
+  },
+  "now": {
+    "type": "npm"
+  },
+  "author": "Louis Grellet <as1cron@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^4.0.3",
+    "prop-types": "^15.6.0",
+    "react": "^16",
+    "react-dom": "^16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
